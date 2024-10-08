@@ -1,0 +1,13 @@
+.barra-pesquisa {
+  padding: 20px;
+  text-align: center;
+}
+
+.barra-pesquisa input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}
