@@ -1,0 +1,33 @@
+.detalhes-filme {
+    display: flex;
+    padding: 20px;
+    background-color: #141414;
+    color: #fff;
+  }
+  
+  .detalhes-filme img {
+    width: 300px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .detalhes-info {
+    max-width: 600px;
+  }
+  
+  .detalhes-info h1 {
+    margin-top: 0;
+  }
+  
+  .detalhes-info p {
+    line-height: 1.5;
+  }
+  
+  .detalhes-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .detalhes-info .trailer {
+    margin-top: 20px;
+  }

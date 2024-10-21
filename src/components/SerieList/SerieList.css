@@ -1,0 +1,46 @@
+.lista-series-container {
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  .lista-series {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 0 10px;
+  }
+  
+  .lista-series::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .botao-navegacao {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .lista-series {
+      overflow-x: hidden;
+    }
+  
+    .botao-navegacao {
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(20, 20, 20, 0.5);
+      border: none;
+      color: #fff;
+      font-size: 30px;
+      padding: 10px;
+      cursor: pointer;
+    }
+  
+    .botao-anterior {
+      left: 0;
+    }
+  
+    .botao-proximo {
+      right: 0;
+    }
+  }

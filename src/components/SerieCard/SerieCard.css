@@ -1,0 +1,48 @@
+.cartao-serie {
+    flex: 0 0 auto;
+    width: 120px;
+    margin-right: 10px;
+    scroll-snap-align: start;
+  }
+  
+  .cartao-serie:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
+  
+  .cartao-serie img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+  }
+  
+  .serie-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  @media (min-width: 600px) {
+    .cartao-serie {
+      width: 30%;
+      margin: 1.5%;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .cartao-serie {
+      width: 22%;
+      margin: 1%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .cartao-serie {
+      width: 18%;
+      margin: 1%;
+    }
+  }

@@ -1,19 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
   return (
-    <header className="cabecalho">
-      <div className='cabecalho-titulo'>
-      <h1>INFNET - Cinema</h1>
-      <div className='cabecalho-acoes'>
+    <header>
+      <h1>Catálogo de Filmes e Séries</h1>
+      <nav>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#filmes">Filmes</a></li>
-          <li><a href="#sobre">Sobre</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/filmes">Filmes</Link></li>
+          <li><Link to="/series">Séries</Link></li>
+          <li><Link to="/comunidade">Comunidade</Link></li>
         </ul>
-      </div>
-      </div>
+      </nav>
     </header>
   );
 }
